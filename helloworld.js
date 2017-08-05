@@ -1,2 +1,3 @@
-console.log(“Hello world”);
+// My first app
+console.log("Hello world");
 
