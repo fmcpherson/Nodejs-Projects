@@ -1,5 +1,5 @@
 // Create new variable called friend = Ray
-var friend = 'Bob';
+var friend = 'Staci';
 
 if (friend === 'Ray' || friend === 'Bob') {
     console.log('Hello friend');
