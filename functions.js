@@ -1,6 +1,9 @@
-function greetUser (name){
-	console.log('Hello ' + name + '!');
+function greetUser (name, lastname){
+	return 'Hello ' + name + ' ' + lastname + '!';
 }
 
-greetUser('Andrew');
-greetUser('Jen');
+var greeting = greetUser('Andrew', 'Mead');
+
+console.log(greeting);
+
+greetUser('Jen', 'J');
