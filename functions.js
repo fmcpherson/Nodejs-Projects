@@ -2,8 +2,9 @@ function greetUser (name, lastname){
 	return 'Hello ' + name + ' ' + lastname + '!';
 }
 
-var greeting = greetUser('Andrew', 'Mead');
+function add (a, b){
+	return a + b;
+}
 
-console.log(greeting);
-
-greetUser('Jen', 'J');
+var sum = add(6, 4);
+console.log('The sum = ' + sum);
