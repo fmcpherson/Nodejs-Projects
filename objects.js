@@ -1,15 +1,12 @@
-var person = {};
+// Project create pet object and print
 
-person.firstName = 'Frank';
-person.lastName = 'McPherson';
-person.age = 51;
-
-delete person.age;
-
-console.log(person);
-
-function greetUser (person){
-	console.log('Hello ' + person.firstName + " " + person.lastName);
+var pet = {
+	name: "Skippy",
+	type: "dog"
 }
 
-greetUser(person);
+function printPet(pet){
+	console.log("You own a " + pet.type + " named " + pet.name);
+}
+
+printPet(pet);
