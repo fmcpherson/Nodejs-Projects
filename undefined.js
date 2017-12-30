@@ -8,4 +8,4 @@ function greetUser(name) {
 }
 
 greetUser();
-greetUser('Frank');
+greetUser('Ruth');
