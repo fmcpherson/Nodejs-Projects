@@ -1,4 +1,5 @@
 // Project create pet object and print
+// Written on 12/31
 
 var pet = {
 	name: "Skippy",
