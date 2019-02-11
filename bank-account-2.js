@@ -1,8 +1,5 @@
 var accounts = [];
 
-// Account Object
-// balance
-// username
 
 // createAccount(account)
 // push onto accounts array
